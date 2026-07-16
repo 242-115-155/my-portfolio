@@ -24,6 +24,7 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 ## 📂 Project Structure
 
 my-portfolio/
+
 │── index.html
 
 │── style.css
