@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-    max-width: 100%;
-}
 body { background-color: #0a0e14; color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0 10%; }
 
 
@@ -306,21 +302,4 @@ footer {
 .read-more:hover {
     background-color: #58a6ff;    
     color: white;                 
-}
-
-@media (max-width: 768px) {
-    
-    .projects-container {
-        display: block !important;
-    }
-    
-    .project-card {
-        width: 100% !important;
-        margin-bottom: 20px;
-    }
-
-    
-    .about-grid {
-        display: block !important;
-    }
 }
