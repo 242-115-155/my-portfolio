@@ -303,3 +303,34 @@ footer {
     background-color: #58a6ff;    
     color: white;                 
 }
+
+
+@media (max-width: 768px) {
+    
+    nav { flex-direction: column; text-align: center; }
+    
+   
+    header { flex-direction: column-reverse; text-align: center; }
+    header .hero-image img { width: 250px !important; height: 250px !important; }
+
+    
+    .about-grid { display: block !important; }
+    .feature-card { margin-bottom: 15px; }
+
+    
+    .skills-container { grid-template-columns: 1fr 1fr !important; }
+
+    
+    .projects-container { display: block !important; }
+    .project-card { width: 100% !important; margin-bottom: 20px; }
+
+    
+    .contact-container { display: block !important; }
+    .contact-card { margin-bottom: 15px; }
+}
+
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
