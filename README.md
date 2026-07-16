@@ -25,8 +25,11 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 
 my-portfolio/
 │── index.html
+
 │── style.css
+
 │── my_cv.pdf
+
 └── images/
 
 ## 👨‍💻 Author
